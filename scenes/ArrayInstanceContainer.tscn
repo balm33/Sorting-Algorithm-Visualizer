@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/ArrayInstanceContainer.gd" type="Script" id=1]
+
+[node name="ArrayInstanceContainer" type="VBoxContainer"]
+script = ExtResource( 1 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 8.0
+
+[node name="IndexLabel" type="Label" parent="."]
+margin_top = 4.0
+margin_right = 8.0
+margin_bottom = 18.0
+text = "0"
+align = 1
+
+[node name="Pos" type="Position2D" parent="."]
+position = Vector2( 4, 0 )
